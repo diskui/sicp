@@ -1,0 +1,5 @@
+(define (tri i j)
+    (cond((or(= i 1)(= i j)(= i 2))1)
+        (else (+ (tri(- i 1)j)(tri (- i 1)(- 1 j))))
+  )
+    )

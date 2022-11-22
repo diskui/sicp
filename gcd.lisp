@@ -1,0 +1,6 @@
+(define (gcd a b)
+    (cond((= b 0) a)
+    ((= a 0) b)
+    (else (gcd b (remainder a b)))
+      )
+)
